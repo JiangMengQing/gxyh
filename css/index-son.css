@@ -1,0 +1,203 @@
+html{color:#000;background:#FFF}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+ol,ul{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+q:before,q:after{content:''}
+abbr,acronym{border:0;font-variant:normal}
+sup{vertical-align:text-top}
+sub{vertical-align:text-bottom}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%;outline: none;}
+legend{color:#000}#yui3-css-stamp.cssreset{display:none}
+a{text-decoration: none; color: #666;}
+body{font-size: 12px; color: #666;background-color: #fff;}
+
+/*列表相同部分开始*/
+.content_main .content_list .one_bottom	ul li:first-child {
+	background-color: #F8F8FA;
+
+}
+.content_main .content_list .one_bottom	ul li:first-child a{
+	color: #000;
+}
+.content_main .content_list .one_bottom ul li:first-child b{
+	margin-right: 9px;
+	color: #9B9B9B;
+}
+.content_main .content_list .one_bottom ul li:first-child span{
+	border-color: #999;
+}
+.content_main .content_list .one_bottom ul li:nth-child(2){
+	background-color: #2ABAFF;
+
+	border-bottom: none;
+	margin-bottom: 1px;
+}
+.content_main .content_list .one_bottom ul li:nth-child(2) a{
+	color: #fff;
+}
+.content_main .content_list .one_bottom ul li:nth-child(2) b{
+	color: #fff;
+}
+.content_main .content_list .one_bottom ul li:nth-child(2)  span{
+	border-color: #fff;
+}
+.content_main .content_list .one_bottom ul li:hover {
+	background-color: #2ABAFF;
+}
+.content_main .content_list .one_bottom ul li:hover a{
+	color: #fff;
+}
+.content_main .content_list .one_bottom ul li:hover span{
+	border-color: #fff;
+}
+.content_main .content_list .one_bottom ul li:hover b{
+	color: #fff;
+}
+.content_main .content_list .one_bottom ul li a{
+	display: inline-block;
+}
+/*列表相同部分结束*/
+
+/*关于永恒 企业文化*/
+.content_main .aboutyh_news .culture li{
+	width: 862px;
+	height: 208px;
+	margin-bottom: 30px;
+	border-bottom:1px solid #E8E8E8;
+}
+.content_main .aboutyh_news .culture li img{
+	width: 250px;
+	height: 188px;
+	float: left;
+}
+.content_main .aboutyh_news .culture li .right{
+	width: 587px;
+	height: 208px;
+	float: right;
+}
+.content_main .aboutyh_news .culture li .right h4{
+	font:24px "黑体";
+}
+.content_main .aboutyh_news .culture li .right h4 a{
+	color: #000;
+}
+.content_main .aboutyh_news .culture li .right  span{
+	color: #999;
+	line-height: 26px;
+}
+.content_main .aboutyh_news .culture li .right p{
+	font-size: 13px;
+	height: 72px;
+	overflow: hidden;
+	text-indent:0em;
+	margin-top: 0;
+	line-height: 26px;
+	margin-bottom: 16px;
+}
+.content_main .aboutyh_news .culture li .right a{
+	display: inline-block;
+	color: #333;
+}
+.content_main .aboutyh_news .culture li .right a:hover{
+	color: #0090d3;
+}
+.content_main .aboutyh_news ol {
+	width: 205px;
+	height: 26px;
+	margin:0 auto;
+	display: flex;
+	justify-content:space-between;
+}
+.content_main .aboutyh_news ol li{
+	width: 27px;
+	height: 26px;
+	background-color: #F1EFF0;
+	text-align: center;
+	line-height: 26px;
+	cursor: pointer;
+}
+.content_main .aboutyh_news ol li:first-child{
+	background-color: #005FA7;
+	color: #fff;
+}
+.content_main .aboutyh_news ol li:last-child{
+	width: 60px;
+}
+/*关于永恒  企业文化结束*/
+
+
+
+/*新闻资讯懒懒君 开始*/
+.news .news-content{
+	width: 862px;
+	height: auto;
+	padding-bottom: 120px;
+}
+.news .news-content h3 {
+
+	text-align: center;
+	color: #0090D3;
+	font: bold 30px "微软雅黑";
+}
+.news .news-content span{
+	display: inline-block;
+	width: 862px;
+	color: #333;
+	text-align: center;
+}
+.news .news-content p{
+	color: #000;
+	font-size: 18px;
+	line-height: 26px;
+	margin-bottom: 13px;
+}
+.news .news-content .newsone{
+	margin-left: 60px;
+}
+/*新闻资讯懒懒君 结束*/
+
+
+/*产业介绍  影像开始*/
+
+.content_main .content_list .industry ul li:first-child {
+	background-color: #2ABAFF;
+}
+.content_main .content_list .industry ul li:first-child b{
+	color: #fff;
+}
+.content_main .content_list .industry ul li:first-child span{
+	border-color: #fff;
+}
+.content_main .industry-right .imgall {
+	width: 862px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.content_main .industry-right .imgall a {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.content_main .industry-right .imgall a img{
+	width: 270px;
+	height: 188px;
+}
+.content_main .industry-right .imgall a p{
+	margin-top: 10px;
+	text-indent:0em;
+	text-align: center;
+	color: #000;
+	font-size: 16px;
+}
+/*产业介绍 影像介绍*/
+
+/*视频中心  媒体报道开始*/
+
+
+
+
+
